@@ -23,6 +23,7 @@ function onMapReady() {
     //------------------------------------------------------
     map.addMarkerCluster({
       //maxZoomLevel: 5,
+      categoryField: "country",
       boundsDraw: true,
       markers: data,
       icons: [
